@@ -1,0 +1,31 @@
+{
+  "name": "sequelize-tidb",
+  "version": "1.0.0",
+  "description": "makes Sequelize compatible with TiDB.",
+  "main": "source/index.js",
+  "scripts": {
+    "test": "mocha --check-leaks --colors -t 300000 --reporter spec \"tests/*_test.js\""
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "p-settle": "^4.1.1",
+    "semver": "^7.3.2"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-datetime": "^1.7.0",
+    "cls-hooked": "^4.2.2",
+    "delay": "^5.0.0",
+    "mariadb": "^2.3.1",
+    "mocha": "^8.4.0",
+    "p-timeout": "^4.1.0",
+    "prettier": "2.2.1",
+    "sequelize": "^6.6.0",
+    "sinon": "^9.2.4",
+    "sinon-chai": "^3.5.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
